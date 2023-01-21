@@ -43,6 +43,7 @@ def hangman(word):
     if not win:
         print("\n".join(stages[0: wrong]))
         print("You lose! The word was {}.".format(word))
-
+        
+# you can change the words also according to your wish
 words = ['python', 'java', 'javascript', 'computer', 'hacker', 'painting', 'javascript']
 hangman(random.choice(words))
